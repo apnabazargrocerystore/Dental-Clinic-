@@ -9,9 +9,5 @@
     { "src": "/admin", "dest": "/admin.js" },
     { "src": "/api/(.*)", "dest": "/index.js" },
     { "src": "/(.*)", "dest": "/index.js" }
-  ],
-  "functions": {
-    "index.js": { "maxDuration": 30 },
-    "admin.js": { "maxDuration": 30 }
-  }
+  ]
 }
